@@ -1,8 +1,9 @@
 package se.lexicon.course_manager.data.dao;
 
 
-
 import se.lexicon.course_manager.model.Course;
+
+
 
 import java.time.LocalDate;
 import java.util.Collection;
@@ -19,45 +20,64 @@ public class CourseCollectionRepository implements CourseDao{
         this.courses = courses;
     }
 
+
+
     @Override
     public Course createCourse(String courseName, LocalDate startDate, int weekDuration) {
         return null;
     }
+
+
+
 
     @Override
     public Course findById(int id) {
         return null;
     }
 
+
+
     @Override
     public Collection<Course> findByNameContains(String name) {
         return null;
     }
+
+
 
     @Override
     public Collection<Course> findByDateBefore(LocalDate end) {
         return null;
     }
 
+
+
     @Override
     public Collection<Course> findByDateAfter(LocalDate start) {
         return null;
     }
+
+
 
     @Override
     public Collection<Course> findAll() {
         return null;
     }
 
+
+
     @Override
     public Collection<Course> findByStudentId(int studentId) {
         return null;
     }
 
+
+
     @Override
     public boolean removeCourse(Course course) {
         return false;
     }
+
+
 
     @Override
     public void clear() {
