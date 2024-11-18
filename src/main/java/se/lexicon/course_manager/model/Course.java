@@ -25,7 +25,6 @@ public class Course implements Serializable{
     }
 
 
-
     //Getters
 
     public int getId() {
